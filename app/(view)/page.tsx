@@ -1,15 +1,10 @@
 import Image from "next/image";
+import HeroCarousel from "./(components)/hero-carousel";
 
 export default function Home() {
   return (
     <>
-      <Image
-        src="/roap.jpg"
-        alt="Roaps in hero"
-        width={2000}
-        height={500}
-        className="h-[350px] object-cover"
-      />
+      <HeroCarousel />
 
       <div className="max-w-screen-xl mx-auto grid grid-cols-2 gap-10 py-10">
         <Image
