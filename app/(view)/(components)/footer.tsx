@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
     <div className="bg-[#001126] text-white w-full">
-      <div className="max-w-screen-lg mx-auto h-[300px] grid grid-cols-3 gap-10 items-center w-full justify-between">
+      <div className="max-w-screen-lg mx-auto md:h-[300px] grid md:grid-cols-3 gap-10 items-center w-full justify-between p-10">
         <p className="font-serif text-sm text-center">
           Det här är en blogg om en nybörjares resa ut till havs. Hur fungerar
           segelbåtar och vilka skötselråd kan jag hitta.{" "}

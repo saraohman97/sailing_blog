@@ -3,13 +3,13 @@ import Image from "next/image";
 const Post = () => {
   return (
     <div className="mb-20">
-      <h2 className="font-serif uppercase text-5xl text-[##222222]">
+      <h2 className="font-serif uppercase sm:text-5xl text-4xl text-[##222222]">
         Däck inkluderar en hel del
       </h2>
       <h4 className="font-serif uppercase text-lg mb-4">
         Däck inkluderar en hel del
       </h4>
-      <p className="text-sm text-gray-500 font-light columns-2">
+      <p className="text-sm text-gray-500 font-light sm:columns-2">
         Däck inkluderar en hel delDäck inkluderar en hel del. Däck inkluderar en
         hel del. Däck inkluderar en hel del.Däck inkluderar en hel delDäck
         inkluderar en hel del. Däck inkluderar en hel del. Däck inkluderar en

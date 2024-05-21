@@ -18,16 +18,17 @@ const DackPage = () => {
         <Post />
       </div>
 
+      {/* Search icon */}
       <div
         onClick={() => setOpen(true)}
-        className="fixed right-20 bottom-20 bg-[#001126] text-white p-2 rounded-full w-14 h-14 flex items-center justify-center hover:bg-[#0e243e] cursor-pointer transition duration-300"
+        className="fixed sm:right-20 right-4 sm:bottom-20 bottom-4 bg-[#001126] text-white p-2 rounded-full sm:w-14 sm:h-14 flex items-center justify-center hover:bg-[#0e243e] cursor-pointer transition duration-300 border border-[#0e243e]"
       >
-        <BiSearch size={26} />
+        <BiSearch className="sm:text-[26px] text-lg" />
       </div>
 
       {open && (
         <div className="bg-black/50 fixed inset-0 flex items-center justify-center">
-          <div className="bg-white w-[450px] h-fit p-10 rounded flex flex-col relative shadow">
+          <div className="bg-white sm:w-[450px] sm:h-fit h-full w-full p-10 rounded flex flex-col relative shadow">
             <div
               className="absolute top-4 right-4 p-2 cursor-pointer"
               onClick={() => setOpen(false)}
@@ -39,7 +40,11 @@ const DackPage = () => {
             </h2>
 
             <div className="flex w-full">
-              <input type="text" className="w-full border px-2" placeholder="Däck..." />
+              <input
+                type="text"
+                className="w-full border px-2"
+                placeholder="Däck..."
+              />
               <div className="bg-black text-white rounded px-6 py-2 w-full max-w-fit">
                 Sök
               </div>
@@ -50,7 +55,7 @@ const DackPage = () => {
 
             {/* search item */}
             <div className="mt-4 border-t pt-2">
-              <h2 className="font-serif text-xl uppercase">
+              <h2 className="font-serif text-xl uppercase hover:underline">
                 Däck inkluderar en hel del
               </h2>
               <small className="text-xs text-gray-500 font-light">
@@ -61,7 +66,7 @@ const DackPage = () => {
 
             {/* search item */}
             <div className="mt-4 border-t pt-2">
-              <h2 className="font-serif text-xl uppercase">
+              <h2 className="font-serif text-xl uppercase hover:underline">
                 Däck inkluderar en hel del
               </h2>
               <small className="text-xs text-gray-500 font-light">
@@ -69,7 +74,6 @@ const DackPage = () => {
               </small>
               <p className="uppercase text-[#2c517d] font-bold">Däck</p>
             </div>
-
           </div>
         </div>
       )}

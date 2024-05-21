@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <HeroCarousel />
 
-      <div className="max-w-screen-xl mx-auto grid grid-cols-2 gap-10 py-10">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-2 gap-10 py-10 px-4 max-sm:gap-4">
         <Image
           src="/clifs.jpg"
           alt="Roaps in hero"
