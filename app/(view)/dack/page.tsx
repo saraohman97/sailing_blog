@@ -14,8 +14,6 @@ const DackPage = () => {
 
       <div className="max-w-screen-sm mx-auto my-10 px-10">
         <Post />
-        <Post />
-        <Post />
       </div>
 
       {/* Search icon */}

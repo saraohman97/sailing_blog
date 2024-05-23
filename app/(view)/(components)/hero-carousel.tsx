@@ -31,13 +31,13 @@ export default function HeroCarousel() {
     );
   };
 
-//   useEffect(() => {
-//     setTimeout(() => {
-//       setCurrentIndex((currentIndex) =>
-//         currentIndex === slides.length - 1 ? 0 : currentIndex + 1
-//       );
-//     }, 50000);
-//   }, [slides]);
+  //   useEffect(() => {
+  //     setTimeout(() => {
+  //       setCurrentIndex((currentIndex) =>
+  //         currentIndex === slides.length - 1 ? 0 : currentIndex + 1
+  //       );
+  //     }, 50000);
+  //   }, [slides]);
 
   return (
     <div className="w-full h-[340px] relative">
